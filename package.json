@@ -1,0 +1,40 @@
+{
+  "name": "@backand/nodejs-sdk",
+  "version": "1.0.9",
+  "description": "Backand SDK for Node.js",
+  "main": "./src/index.js",
+  "files": [
+    "src",
+    "example"
+  ],
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "start": "cd ./example/ && node demo.js"
+  },
+  "author": "Backand",
+  "license": "MIT",
+  "dependencies": {
+    "@backand/vanilla-sdk": "^1.0.9",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backand/nodejs-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/backand/nodejs-sdk/issues"
+  },
+  "homepage": "https://github.com/backand/nodejs-sdk#readme",
+  "keywords": [
+    "Backand",
+    "backend",
+    "backend sdk",
+    "backend js",
+    "backend javascript",
+    "nodejs-sdk",
+    "backend nodejs sdk"
+  ]
+}
