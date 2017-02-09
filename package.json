@@ -1,6 +1,6 @@
 {
   "name": "@backand/nodejs-sdk",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "Backand SDK for Node.js",
   "main": "./src/index.js",
   "files": [
@@ -16,7 +16,7 @@
   "author": "Backand",
   "license": "MIT",
   "dependencies": {
-    "@backand/vanilla-sdk": "^1.0.9",
+    "@backand/vanilla-sdk": "^1.1.0",
     "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {},
