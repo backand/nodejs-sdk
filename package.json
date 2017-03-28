@@ -16,7 +16,7 @@
   "author": "Backand",
   "license": "MIT",
   "dependencies": {
-    "@backand/vanilla-sdk": "^1.1.2",
+    "@backand/vanilla-sdk": "^1.1.5",
     "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {},
