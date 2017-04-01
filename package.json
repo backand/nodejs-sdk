@@ -1,6 +1,6 @@
 {
   "name": "@backand/nodejs-sdk",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Backand SDK for Node.js",
   "main": "./src/index.js",
   "files": [
@@ -11,12 +11,15 @@
     "example": "example"
   },
   "scripts": {
-    "start": "cd ./example/ && node demo.js"
+    "start": "cd ./example/ && node demo.js",
+    "patch": "npm version patch -m \"Release version %s\"",
+    "version": "npm update -S @backand/vanilla-sdk && git add -A",
+    "postversion": "git push && git push --tags"
   },
   "author": "Backand",
   "license": "MIT",
   "dependencies": {
-    "@backand/vanilla-sdk": "^1.1.2",
+    "@backand/vanilla-sdk": "^1.1.5",
     "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {},
