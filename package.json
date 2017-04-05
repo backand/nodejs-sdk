@@ -13,7 +13,7 @@
   "scripts": {
     "start": "cd ./example/ && node demo.js",
     "patch": "npm version patch -m \"Release version %s\"",
-    "version": "npm update -S @backand/vanilla-sdk && git add -A",
+    "version": "npm i -S -f @backand/vanilla-sdk && git add -A",
     "postversion": "git push && git push --tags"
   },
   "author": "Backand",
