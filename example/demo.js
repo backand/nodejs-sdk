@@ -13,11 +13,11 @@ backand.signin('sdk@backand.com', "Password1")
   })
   .then(res=> {
     console.log(res);
-    return backand.object.getList('users')
+    return backand.object.getList('items')
   })
   .then(res=> {
     await = res;
-    console.log(res.data.length);
+    console.log(res.data);
   })
   .catch(err=> console.log(err));
 

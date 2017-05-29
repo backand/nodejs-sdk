@@ -36,7 +36,7 @@ Review the full API reference at our [vanilla-sdk's github](https://github.com/b
 
 
 ## Examples
-***To view the demo, just run npm start - [example page](https://github.com/backand/nodejs-sdk/blob/master/example/).***
+***To view the demo, just run ```npm start``` - [example page](https://github.com/backand/nodejs-sdk/blob/master/example/).***
 
 
 ## License
