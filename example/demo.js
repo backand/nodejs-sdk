@@ -7,6 +7,16 @@ backand.init({
 
 
 var await = false;
+
+//Test Anonymous
+backand.object.getList('items')
+  .then(res=> {
+    await = res;
+    console.log(res.data);
+  })
+  .catch(err=> console.log(err));
+
+//Test sign in - access token
 backand.signin('sdk@backand.com', "Password1")
   .then(res=> {
     return backand.user.getUsername()
